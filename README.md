@@ -1,4 +1,4 @@
-<mark>JARVISE BLACK EDITION - AI CODING ASSISTANT<mark>
+## **Bold Heading**JARVISE BLACK EDITION - AI CODING ASSISTANT
 
 
 Advanced AI Voice Assistant with 40+ Programming Languages Support
