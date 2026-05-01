@@ -1,10 +1,10 @@
-=============================JARVISE BLACK EDITION - AI CODING ASSISTANT=============================
+Section 1: JARVISE BLACK EDITION - AI CODING ASSISTANT
 
 
 Advanced AI Voice Assistant with 40+ Programming Languages Support
 Requires: Python 3.8+, Ollama, Microphone (for voice commands)
 
-=============================FEATURES=============================
+Section 2: FEATURES
 
 🎤 VOICE CONTROL:
    - Wake word required: Say "WAKE UP" before any command
