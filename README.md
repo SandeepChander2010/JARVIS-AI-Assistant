@@ -4,15 +4,15 @@
 Advanced AI Voice Assistant with 40+ Programming Languages Support
 Requires: Python 3.8+, Ollama, Microphone (for voice commands)
 
-Section 2: FEATURES
+## FEATURES
 
-🎤 VOICE CONTROL:
+## 🎤 VOICE CONTROL:
    - Wake word required: Say "WAKE UP" before any command
    - 40+ voice commands for system control
    - Text-to-speech responses
    - 2-minute auto sleep timeout
 
-⌨️ CODING AI (40+ LANGUAGES):
+## ⌨️ CODING AI (40+ LANGUAGES):
    - Generate Code from natural language description
    - Explain Code step by step
    - Debug Code - find and fix errors
@@ -22,7 +22,7 @@ Section 2: FEATURES
    - Generate Unit Tests automatically
    - Add Documentation and docstrings
 
-❓ QUESTION AI:
+## ❓ QUESTION AI:
    - Ask any general knowledge questions
    - Get intelligent answers from AI
    - Topics include: Science, Technology, History, Math, How-To
@@ -30,49 +30,45 @@ Section 2: FEATURES
    - Natural conversation flow
    - Follow-up questions supported
 
-🎵 YOUTUBE MUSIC:
+## 🎵 YOUTUBE MUSIC:
    - Play any song by name
    - Quick play buttons for popular songs
    - Stop music playback
    - Volume control
 
-🖥️ SYSTEM CONTROL:
+## 🖥️ SYSTEM CONTROL:
    - Open Chrome, YouTube, Spotify, Calculator, Notepad, VS Code, File Explorer
    - Lock PC, Sleep PC, Restart, Shutdown
    - Volume Up/Down
    - Time and Date display
 
-📊 SYSTEM MONITORING:
+## 📊 SYSTEM MONITORING:
    - Real-time CPU usage
    - RAM usage monitoring
    - Battery status
    - Network connectivity
 
-================================================================================
-                            SYSTEM REQUIREMENTS
-================================================================================
+## SYSTEM REQUIREMENTS
 
-Minimum Requirements:
+## Minimum Requirements:
    - OS: Windows 10/11, Linux, or macOS
    - Python: 3.8 or higher
    - RAM: 8GB (16GB recommended for AI models)
    - Storage: 10GB free space
    - Internet: Required for YouTube & voice recognition
 
-Optional but Recommended:
+## Optional but Recommended:
    - GPU for faster AI processing (NVIDIA with CUDA)
    - Microphone for voice commands
    - Speakers for voice responses
 
-================================================================================
-                          INSTALLATION GUIDE
-================================================================================
+## INSTALLATION GUIDE
 
-STEP 1: Install Python
+## STEP 1: Install Python
    - Download Python 3.8+ from: https://python.org
    - CHECK "Add Python to PATH" during installation
 
-STEP 2: Install Required Python Packages
+## STEP 2: Install Required Python Packages
 
    Method A - One-Line Installation (Recommended):
    -------------------------------------------------
@@ -87,13 +83,11 @@ STEP 2: Install Required Python Packages
    -------------------------------
    python -c "import PyQt5, pyttsx3, psutil, pyautogui, pywhatkit, speech_recognition, ollama; print('OK')"
 
-================================================================================
-                            OLLAMA SETUP (REQUIRED)
-================================================================================
+## OLLAMA SETUP (REQUIRED)
 
 Ollama is a free, local AI that runs on your computer. No internet required.
 
-STEP 1: Download Ollama
+## STEP 1: Download Ollama
    - Go to: https://ollama.ai/download
    - Download for your OS (Windows/Linux/macOS)
    - Install with default settings
@@ -105,7 +99,7 @@ STEP 2: Start Ollama Service
    -------------------------------------------------
    Keep this terminal open!
 
-STEP 3: Download AI Model (in another terminal)
+## STEP 3: Download AI Model (in another terminal)
 
    For Coding & Question AI (Recommended - 7B model):
    -------------------------------------------------
@@ -128,9 +122,7 @@ STEP 4: Verify Ollama is Working
    -------------------------------------------------
    Should show installed models
 
-================================================================================
-                          HOW TO USE JARVISE
-================================================================================
+## HOW TO USE JARVISE
 
 STEP 1: Start Ollama (in first terminal)
    -------------------------------------------------
@@ -142,12 +134,12 @@ STEP 2: Run JARVISE (in second terminal)
    python JARVIS.py
    -------------------------------------------------
 
-STEP 3: Wake Up Jarvis
+## STEP 3: Wake Up Jarvis
    - VOICE: Say "Wake Up"
    - TEXT: Type "wake up" in Chat tab
    - BUTTON: Click "⚡ Wake Up" button
 
-STEP 4: Give Commands
+## STEP 4: Give Commands
 
    Voice Commands (After saying "Wake Up"):
    ----------------------------------------
@@ -168,11 +160,9 @@ STEP 4: Give Commands
    explain black holes
    help
    
-================================================================================
-                          VOICE COMMANDS LIST
-================================================================================
+## VOICE COMMANDS LIST
 
-🌐 BROWSER & APPS COMMANDS:
+## 🌐 BROWSER & APPS COMMANDS:
    "open chrome" / "chrome"        - Opens Google Chrome
    "open youtube" / "youtube"      - Opens YouTube
    "open spotify" / "spotify"      - Opens Spotify
@@ -181,27 +171,27 @@ STEP 4: Give Commands
    "open vs code" / "vscode"        - Opens VS Code
    "open explorer" / "explorer"     - Opens File Explorer
 
-🎵 MUSIC COMMANDS:
+## 🎵 MUSIC COMMANDS:
    "play [song name]"               - Plays song on YouTube
    "stop music"                     - Stops playback
 
-🔊 VOLUME COMMANDS:
+## 🔊 VOLUME COMMANDS:
    "volume up" / "vol up"           - Increases volume
    "volume down" / "vol down"       - Decreases volume
 
-🖥️ SYSTEM COMMANDS:
+## 🖥️ SYSTEM COMMANDS:
    "lock my pc" / "lock"            - Locks computer
    "sleep pc" / "sleep"             - Puts computer to sleep
    "restart" / "restart pc"         - Restarts computer
    "shutdown" / "shut down"         - Shuts down computer
 
-ℹ️ INFORMATION COMMANDS:
+## ℹ️ INFORMATION COMMANDS:
    "what time is it" / "time"       - Shows current time
    "what date is it" / "date"       - Shows current date
    "battery status" / "battery"     - Shows battery percentage
    "cpu usage" / "cpu"              - Shows CPU usage
 
-❓ QUESTION AI COMMANDS:
+## ❓ QUESTION AI COMMANDS:
    "what is [topic]"                - Asks about any topic
    "who is [person]"                - Asks about a person
    "explain [concept]"              - Explains a concept
@@ -209,18 +199,16 @@ STEP 4: Give Commands
    "tell me about [subject]"        - Provides information
    "compare [A] and [B]"            - Compares two things
 
-😄 FUN COMMANDS:
+## 😄 FUN COMMANDS:
    "tell me a joke"                 - Tells a random joke
    "hello" / "hi"                   - Greets you
    "how are you"                    - Responds with status
 
-================================================================================
-                          QUESTION AI FEATURES
-================================================================================
+## QUESTION AI FEATURES
 
-HOW TO USE QUESTION AI:
+## HOW TO USE QUESTION AI:
 
-Method 1 - QUESTION AI Tab:
+## Method 1 - QUESTION AI Tab:
   1. Click "? QUESTION AI" tab
   2. Select topic category (Science, Math, Technology, History, How To, Compare, General)
   3. Type your question in the input box
@@ -243,7 +231,7 @@ Method 3 - Chat Commands:
   explain blockchain technology
   -------------------------------------------------
 
-QUESTION AI Features:
+## QUESTION AI Features:
    • Natural language understanding
    • Detailed explanations with examples
    • Follow-up questions supported
@@ -251,13 +239,11 @@ QUESTION AI Features:
    • Clear, structured answers
    • Real-time AI processing via Ollama
    
-================================================================================
-                          CODING AI FEATURES
-================================================================================
+## CODING AI FEATURES
 
-HOW TO USE CODING AI:
+## HOW TO USE CODING AI:
 
-Method 1 - Coding AI Tab:
+## Method 1 - Coding AI Tab:
   1. Click "⌨ CODING AI" tab
   2. Select your Programming Language (40+ options)
   3. Choose AI Model (deepseek-coder recommended)
@@ -287,43 +273,39 @@ Method 3 - Chat Commands:
   create a binary search tree in JavaScript
   -------------------------------------------------
 
-================================================================================
-                    SUPPORTED PROGRAMMING LANGUAGES (40+)
-================================================================================
+## SUPPORTED PROGRAMMING LANGUAGES (40+)
 
-WEB LANGUAGES:
+## WEB LANGUAGES:
    HTML, CSS, SCSS, JavaScript, TypeScript, React/JSX, Vue, Angular, Svelte
 
-BACKEND LANGUAGES:
+## BACKEND LANGUAGES:
    Python, Java, C#, PHP, Ruby, Go, Rust, Swift, Kotlin
 
-SYSTEM LANGUAGES:
+## SYSTEM LANGUAGES:
    C, C++, Assembly, Zig, Nim, V, Odin
 
-DATA SCIENCE:
+## DATA SCIENCE:
    R, MATLAB, Julia, SQL, Scala
 
-MOBILE:
+## MOBILE:
    Swift, Kotlin, Dart, Flutter, React Native
 
-FUNCTIONAL:
+## FUNCTIONAL:
    Haskell, Erlang, Elixir, F#, Clojure, OCaml, Scheme
 
-SCRIPTING:
+## SCRIPTING:
    Bash/Shell, PowerShell, Lua, Perl, Groovy
 
-LEGACY:
+## LEGACY:
    COBOL, Fortran, Pascal, Delphi, Ada
 
-HARDWARE:
+## HARDWARE:
    Verilog, VHDL, SystemVerilog
 
-OTHER:
+## OTHER:
    Solidity, VBA, Objective-C, Crystal, Nim
 
-================================================================================
-                          TROUBLESHOOTING
-================================================================================
+## TROUBLESHOOTING
 
 ISSUE 1: "Ollama not connected"
    SOLUTION: Start Ollama service
@@ -344,7 +326,7 @@ ISSUE 3: "speech_recognition not found"
    pip install speechrecognition
    -------------------------------------------------
 
-ISSUE 4: Microphone not working
+## ISSUE 4: Microphone not working
    SOLUTION: Check microphone permissions
    - Windows: Settings > Privacy > Microphone > Allow apps to access
 
@@ -361,7 +343,7 @@ ISSUE 6: Question AI not responding
    ollama pull llama3.2:7b
    -------------------------------------------------
 
-ISSUE 7: Out of memory error
+## ISSUE 7: Out of memory error
    SOLUTION: 
    - Close other applications
    - Use smaller AI model
@@ -373,20 +355,18 @@ ISSUE 8: "No module named PyQt5"
    pip install PyQt5 PyQtWebEngine
    -------------------------------------------------
 
-ISSUE 9: Voice commands not working
+## ISSUE 9: Voice commands not working
    SOLUTION:
    - Ensure microphone is connected
    - Say "Wake Up" first
    - Check microphone levels in Sound Settings
    - Speak clearly at normal volume
 
-================================================================================
-                          QUICK ACTION BUTTONS
-================================================================================
+## QUICK ACTION BUTTONS
 
-QUICK ACTIONS TAB INCLUDES:
+## QUICK ACTIONS TAB INCLUDES:
 
-APPLICATIONS (7 buttons):
+## APPLICATIONS (7 buttons):
    🌐 Google Chrome  - Opens Chrome browser
    ▶ YouTube         - Opens YouTube website
    🎵 Spotify        - Opens Spotify
@@ -395,29 +375,25 @@ APPLICATIONS (7 buttons):
    💻 VS Code        - Opens Visual Studio Code
    📁 File Explorer  - Opens File Explorer
 
-SYSTEM (4 buttons):
+## SYSTEM (4 buttons):
    🔒 Lock PC        - Locks your computer
    💤 Sleep PC       - Puts computer to sleep
    🔄 Restart        - Restarts computer
    ⏻ Shutdown       - Shuts down computer
 
-INFO (4 buttons):
+## INFO (4 buttons):
    🕐 Time           - Shows current time
    📅 Date           - Shows current date
    🔋 Battery        - Shows battery percentage
    💻 CPU            - Shows CPU usage
 
-================================================================================
-                          KEYBOARD SHORTCUTS
-================================================================================
+## KEYBOARD SHORTCUTS
 
    F11          - Toggle Fullscreen mode
    Esc          - Exit Fullscreen
    Enter        - Send message (in Chat tab)
 
-================================================================================
-                          QUICK START SUMMARY
-================================================================================
+## QUICK START SUMMARY
 
 1. INSTALL PYTHON PACKAGES:
    -------------------------------------------------
@@ -425,7 +401,7 @@ INFO (4 buttons):
    pip install pipwin && pipwin install pyaudio
    -------------------------------------------------
 
-2. INSTALL OLLAMA:
+2. ## INSTALL OLLAMA:
    Download from: https://ollama.ai/download
 
 3. START OLLAMA:
@@ -452,9 +428,7 @@ INFO (4 buttons):
    "write a Python function to sort a list"
    -------------------------------------------------
 
-================================================================================
-                              TIPS FOR BEST EXPERIENCE
-================================================================================
+## TIPS FOR BEST EXPERIENCE
 
 1. Always say "Wake Up" first before any voice command
 2. Speak clearly and at normal volume
@@ -467,9 +441,7 @@ INFO (4 buttons):
 9. Use Question AI tab for general knowledge questions
 10. You can ask follow-up questions - AI remembers context!
 
-================================================================================
-                          AVAILABLE AI MODELS
-================================================================================
+## AVAILABLE AI MODELS
 
 Model Name              Size    RAM Required    Best For
 ---------------------------------------------------------
@@ -482,29 +454,21 @@ llama3.2:7b             4GB     8GB            Question AI & General chat (recom
 llama3.2:70b            40GB    64GB           Most capable (slower)
 mistral:7b              4GB     8GB            Fast all-rounder
 
-================================================================================
-                              LICENSE
-================================================================================
+## LICENSE
 
 MIT License - Free for personal and commercial use
 
-================================================================================
-                              CREDITS
-================================================================================
+## CREDITS
 
 - Built with PyQt5
 - AI powered by Ollama (DeepSeek-Coder, CodeLlama, Llama)
 - Voice recognition by Google Speech API
 - YouTube integration via pywhatkit
 
-================================================================================
-                              VERSION INFO
-================================================================================
+## VERSION INFO
 
 Version: 1.0
 Last Updated: 2/5/2026
 Author: SandeepChander.R
 
-================================================================================
-                    END OF README - HAPPY CODING!
-================================================================================
+## END OF README - HAPPY CODING!
