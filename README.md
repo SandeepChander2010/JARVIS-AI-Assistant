@@ -1,4 +1,4 @@
-Section 1: JARVISE BLACK EDITION - AI CODING ASSISTANT
+<mark>JARVISE BLACK EDITION - AI CODING ASSISTANT<mark>
 
 
 Advanced AI Voice Assistant with 40+ Programming Languages Support
