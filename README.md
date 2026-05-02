@@ -72,7 +72,7 @@ Requires: Python 3.8+, Ollama, Microphone (for voice commands)
 
    Method A - One-Line Installation (Recommended):
    -------------------------------------------------
-   CMD: pip install PyQt5 PyQtWebEngine pyttsx3 psutil pyautogui pywhatkit speechrecognition ollama
+   pip install PyQt5 PyQtWebEngine pyttsx3 psutil pyautogui pywhatkit speechrecognition ollama
 
    Method B - Using pipwin for Audio Driver (Windows only):
    ---------------------------------------------------------
